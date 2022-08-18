@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Montserrat:wght@100;300;400;500;700&family=Open+Sans:wght@300;400;500;700&family=Raleway:wght@100;200;400;600;700&family=Roboto:wght@100;400;500;700&display=swap');
+
+body{
+	font-family: 'Jost', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 5px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+header {
+    background-color: #fff;    
+}
+
+img{
+	max-width: 100%;
+}
+.container{
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+    text-align: center;    
+}
+
+
+.logo img{
+	width: 140px;
+	padding: 10px;
+
+}
+
+.navigation-menu {
+    background-color: black;
+    padding: 0 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.menu {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 14px 5px 11px;
+}
+.menu li a {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 700px;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.banner_image_section {
+    background: #000 url(../images/background.jpg);
+    background-size: cover;
+    min-height: 620px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    
+}
+.banner_image_section .container{
+	min-height: 620px;
+	justify-content: center;
+
+}
+.banner_image_section h1 {
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    color: #fff;
+    margin: 0;
+    
+}
+
+
+.col-full {
+	width: 100%;
+	padding: 35px;
+	margin: 0;
+}
+.container .col-2-1 {
+    
+    flex-basis: 50%;
+	max-width: 50%;
+	margin: 0;
+	box-sizing: border-box;
+}
+.col-2-1 p {
+    padding: 30px 100px;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+
+}
+.footer_section{
+	background-color: black;
+	padding: 50px;
+
+}
+.footer_menu{
+	
+	margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 14px 5px 11px;
+}
+.footer_menu li a {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 100px;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
